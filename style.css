@@ -1,0 +1,933 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0B0B0E;;
+}
+
+.headerContainer {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.links:hover {
+    background-color: black;
+    color: red;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    margin-top: 112px;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+}
+
+.newContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 96px;
+}
+
+.internetBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+h1 {
+    width: 550px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.build {
+    width: 546px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.redButton {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #FF371A;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.redButton:hover {
+    background-color: black;
+    border: 2px solid red;
+}
+
+.blackButton {
+    display: flex;
+    width: 200px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.blackButton:hover {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.worlds {
+    width: 546px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.createContainer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.decentralizedContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.decentralizedBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.decentralizedAgent {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.decentralizedHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.head{
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.text {
+    width: 340px;
+    text-transform: capitalize;
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px
+}
+
+.textt {
+    width: 460px;
+    text-transform: capitalize;
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.inferenceBox {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.apiText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.computeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.computeBox {
+    display: flex;
+    padding: 16px;
+    height: 280px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.computeText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.contractBox  {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.smartContract {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.loveContainer {
+    display: flex;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.headingLove {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.love {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; 
+}
+
+.hearText {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.loveBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.loveCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.loveCard {
+    display: flex;
+    min-width: 360px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+.starQuote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.starBack {
+    background-image: url(img/mainIMG/stars/Star\ background.svg);
+    background-repeat: no-repeat;
+}
+
+.starText {
+    max-width: 508px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.avatrBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatarText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textVerified {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.name {
+    text-transform: capitalize;
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.mail {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.aboutContainer  {
+    display: flex;
+    width: 1040px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background-color: #191919;
+}
+
+.supportingText {
+    display: flex;
+    max-width: 768px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.still {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; 
+}
+
+.sign {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.emailCapture {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    padding: 12px 14px;
+    align-items: center;
+    color: white;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #7A7A7A;
+    background-color: #0B0B0E;
+}
+
+.care {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7A7A7A;
+    font-family: Inter;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #FF371A;
+}
+
+.button:hover {
+    background-color: black;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+.priceContainer {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.priceContent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.priceHead {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+}
+
+.lets {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.pallentesque {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.priceBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.priceCard {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #191919;
+}
+
+.basicCard  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.basicPlan {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pricee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 150px;
+    gap: 11px;
+}
+
+.line {
+    width: 304px;
+    height: 1px;
+    background-color: #888888;
+}
+
+.priceText {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dollar {
+    color: #FFFFFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+.popular {
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.per {
+    text-transform: capitalize;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popu {
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FF371A;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.popu:hover {
+    background-color: black;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+.subContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+}
+
+.subBox {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.subBox a{
+    display: flex;
+    gap: 16px;
+}
+
+.pricedolar {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttonBy {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #FF371A;
+    background-color: #FF371A;
+}
+
+.buttonBy:hover {
+    border: 2px solid #FF371A;
+    font-size: 20px;
+    background-color: black;
+
+}
+
+.buttonByblack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #FF371A;
+}
+
+.buttonByblack:hover  {
+    font-size: 20px;
+    background-color: #FF371A;
+}
+
+.bigcheckBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 82px;
+}
+
+.bigcheckPrice {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.bigcheckText  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.bigText {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bigPara {
+    max-width: 500px;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footerContainer  {
+    display: flex;
+    margin-top: 128px;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.footerLogobox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px
+}
+
+.design {
+    max-width: 420px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.designLogo {
+    display: flex;
+    align-items: center;
+    gap: -3.2px;
+}
+
+.logoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.logoStar {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.starBackk {
+    background-image: url(img/footerIMG/Star\ background.svg);
+    background-repeat: no-repeat;
+}
+
+.bests {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.reviews  {
+    color: #E9D7FE;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.linksHead {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.linkebi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.linki {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.linki:hover {
+    border: 2px solid red;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.newRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.newss {
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #ffffff4d;
+    background-color: #ffffff1a;
+}
+
+.news {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.copy {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socialIcons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.iconka:hover {
+    background-color: black;
+    border: 2px  solid red;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
